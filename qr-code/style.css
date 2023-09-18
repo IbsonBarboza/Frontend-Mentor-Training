@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_qr {
+    display: flex;
+    background-color: #b0c4de;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+.section_qr {
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+    max-width: 250px;
+    min-height: 370px;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.title_qr {
+    font-size: 1em;
+    font-weight: 600;
+    padding: 10px 0px 15px 0px;
+}
+
+.paragrapy_qr {
+    text-align: center;
+    font-size: 0.9em;
+    color: #808080;
+}
+
+.img_qr {
+    max-width: 220px;
+    border-radius: 20px;
+}
