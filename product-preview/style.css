@@ -31,17 +31,17 @@ body {
     width: 700px;
 }
 
+.card_img {
+    border-radius: 10px 0px 0px 10px;
+    width: 50%;
+}
+
 .info_card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 450px;
     padding: 10px 25px;
-}
-
-.card_img {
-    border-radius: 10px 0px 0px 10px;
-    width: 50%;
 }
 
 .product_title {
@@ -63,9 +63,7 @@ body {
     color: var(--dark-grayish-blue);
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5em;
-    width: 75%;
-    
-    
+    width: 75%;   
 }
 
 .price {
@@ -77,7 +75,6 @@ body {
 
 .new_price {
     color: var(--dark-cyan);
-
 }
 
 .old_price {
@@ -87,7 +84,6 @@ body {
     font-size: 0.5em;
     margin: 10px;
 }
-
 
 button {
     display: flex;
@@ -102,8 +98,7 @@ button {
     font-size: 1em;
     font-weight: 600;
     gap: 10px;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
 button:hover {
