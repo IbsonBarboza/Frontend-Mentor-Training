@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+:root {
+    --white: #fff;
+    --cream: #f2ebe3;
+    --dark-cyan: #3c8067;
+    --dark-grayish-blue: #6c7289;
+    --very-dark-blue: #1c232b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cream);
+    font-family: "Fraunces", serif;
+    position: relative;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 700px;
+}
+
+.info_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    padding: 10px 25px;
+}
+
+.card_img {
+    border-radius: 10px 0px 0px 10px;
+    width: 50%;
+}
+
+.product_title {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.8em;
+    color: var(--dark-grayish-blue);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+
+}
+
+.product_name {
+    font-size: 2em;
+    width: 70%;
+}
+
+.product_description {
+    color: var(--dark-grayish-blue);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    width: 75%;
+    
+    
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    font-size: 1.8em;
+    gap: 1rem;
+}
+
+.new_price {
+    color: var(--dark-cyan);
+
+}
+
+.old_price {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dark-grayish-blue);
+    text-decoration: line-through;
+    font-size: 0.5em;
+    margin: 10px;
+}
+
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-cyan);
+    padding: 15px;
+    max-width: 300px;
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    font-size: 1em;
+    font-weight: 600;
+    gap: 10px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: var(--very-dark-blue);
+}
