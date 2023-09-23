@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --Pale-blue: #e0e8ff;
+    --Bright-blue: #3829e0;
+    --Very-pale-blue: #f5f7ff;
+    --Desaturated-blue: #7280a7;
+    --Dark-blue: #1f2f56;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: var(--Pale-blue);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.card_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white);
+    width: 400px;
+    height: 565px;
+    border-radius: 10px;
+}
+
+.header_img {
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.title {
+    font-size: 1.4em;
+    font-weight: 900;
+}
+
+.info_paragraphy {
+    color: var(--Desaturated-blue);
+    padding: 15px 0px;
+    text-align: center;
+    width: 85%;
+}
+
+.plans {
+    background-color: var(--Very-pale-blue);
+    display: flex;
+    align-items: center; 
+    width: 300px;
+    margin-bottom: 25px;
+    font-size: 0.7em;
+    padding: 12px;
+    border-radius: 5px;
+    gap: 1rem;
+}
+
+.plans_title {
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.plans_price {
+    color: var(--Desaturated-blue);
+    font-size: 1.2em;
+}
+
+.plans_change {
+    color: var(--Bright-blue);
+    margin-left: 70px;
+    font-weight: 800;
+}
+
+.plans_change:hover {
+    text-decoration: none;
+}
+
+.proceed_button {
+    background-color: var(--Bright-blue);
+    color: var(--white);
+    box-shadow: 2px 5px 10px #00000059;
+    padding: 12px;
+    width: 300px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;   
+}
+
+.proceed_button:hover {
+    background-color: var(--Dark-blue);
+}
+
+.cancel_order {
+    color: var(--Desaturated-blue);
+    text-decoration: none;
+    font-weight: 800;
+    display: block;
+    margin-top: 20px;
+}
+
+.cancel_order:hover {
+    color: #000000;
+}
