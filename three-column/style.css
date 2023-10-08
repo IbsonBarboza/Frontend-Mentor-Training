@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*Primary Colors*/
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+
+    /*Neutral Colors*/
+    --white: #fff;
+    --Transparent-white: hsla(0, 0%, 100%, 0.75); /*(paragraphs)*/
+    --Very-light-gray: hsl(0, 0%, 95%); /*(background, headings, buttons)*/
+    
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    min-height: 50%;
+    max-width: 50%;    
+}
+
+.title {
+    font-family: 'Big Shoulders Display', currsive;
+    color: var(--white);
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 200;
+    color: var(--Transparent-white);
+    font-size: 1em;
+    line-height: 1.5rem;  
+}
+
+.img {
+    width: 70px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--Bright-orange);
+    border-radius: 10px 0px 0px 10px;
+    padding: 0px 40px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--Dark-cyan);
+    padding: 0px 40px;
+    
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--Very-dark-cyan);
+    border-radius: 0px 10px 10px 0px;
+    padding: 0px 40px;
+}
+
+.button {
+    font-weight: 600;
+    padding: 13px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    
+}
+
+.left_button {
+    color: var(--Bright-orange);
+}
+
+.center_button {
+    color: var(--Dark-cyan);
+}
+
+.right_button {
+    color: var(--Very-dark-cyan);
+}
