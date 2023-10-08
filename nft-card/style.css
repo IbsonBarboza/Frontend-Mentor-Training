@@ -71,6 +71,26 @@ body {
     cursor: pointer;
 }
 
+.view {
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    max-width: 20%;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.view:hover {
+    opacity: 1;
+    background-color: hsla(178, 100%, 50%, 0.541);
+    padding: 125px 125px;
+    position: absolute;
+    top: 337px;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+
 .price {
     display: flex;
     gap: 8em;
@@ -100,6 +120,7 @@ body {
 
 .img:hover {
     
+    background-color: var(--Cyan);
 }
 
 .title:hover {
