@@ -99,14 +99,6 @@ body {
 
 /*Right Part*/
 
-/*.right_section {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 1rem;
-}*/
-
 .right_section {
     display: grid;
     gap: 1rem;
