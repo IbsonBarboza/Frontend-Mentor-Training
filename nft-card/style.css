@@ -61,15 +61,6 @@ body {
     color: var(--Soft-blue);
 }
 
-.eth {
-    color: var(--Cyan);
-}
-
-.clock {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
 
 .img {
     width: 300px;
@@ -103,13 +94,26 @@ body {
     opacity: 1;
 }
 
+.eth {
+    color: var(--Cyan);
+    display: flex;
+    align-items: center;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .price {
     display: flex;
     gap: 7em;
 }
 
 .price img {
-    margin-right: 3px;
+    margin-right: 5px;
+    
 }
 
 .line {
