@@ -65,6 +65,12 @@ body {
     color: var(--Cyan);
 }
 
+.clock {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .img {
     width: 300px;
     border-radius: 5px;
@@ -80,9 +86,12 @@ body {
 
 .view {
     position: absolute;
+    cursor: pointer;
     margin: auto;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
     opacity: 0;
     padding: 125px;
     border-radius: 5px;
@@ -96,7 +105,11 @@ body {
 
 .price {
     display: flex;
-    gap: 8em;
+    gap: 7em;
+}
+
+.price img {
+    margin-right: 3px;
 }
 
 .line {
@@ -119,11 +132,6 @@ body {
     margin-left: -10px;
     color: var(--White);
     cursor: pointer;
-}
-
-.img:hover {
-    
-    background-color: var(--Cyan);
 }
 
 .title:hover {
