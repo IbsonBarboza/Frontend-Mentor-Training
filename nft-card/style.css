@@ -103,7 +103,6 @@ body {
 .clock {
     display: flex;
     align-items: center;
-    gap: 5px;
 }
 
 .price {
