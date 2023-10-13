@@ -31,7 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    
 }
 
 .img_card {
@@ -48,16 +48,19 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: 250px;
 
 }
 
 .age {
     color: var(--Dark-grayish-blue);
     font-weight: normal;
+    font-size: 0.9em;
+    margin-left: 5px;
 }
 
 .city {
-    margin-top: 15px;
+    margin-top: 10px;
     color: var(--Dark-grayish-blue);
 }
 
@@ -70,13 +73,27 @@ body {
 .line {
     border: 1px solid #80808055;
     width: 100%;
+    position: relative;
+    bottom: 50px;
 }
 
 .profile_stats {
+    
     position: relative;
-    bottom: 5%;
-    margin: 50px;
+    bottom: 30px;
     display: flex;
     text-align: center;
     gap: 4rem;
+}
+
+.stats_numb {
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+.stats_stuff {
+    color: var(--Dark-grayish-blue);
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    margin-top: 5px;
 }
