@@ -3,11 +3,6 @@ const rating = document.querySelector('.rating_choice')
 const submit = document.querySelector('.submit')
 
 
-//Change Page
-function pag2click() {
-    window.location.href = './pags/pag2.html'   
-}
-
 //Identify Button
 function identifyClickedButton(event) {
     const buttonClick = event.target.textContent;
