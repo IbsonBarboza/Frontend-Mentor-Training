@@ -3,6 +3,7 @@ const rating = document.querySelector('.rating_choice')
 const submit = document.querySelector('.submit')
 
 
+
 //Change Page
 function pag2click() {
     window.location.href = './pags/pag2.html'   
@@ -24,3 +25,7 @@ const buttonClick = localStorage.getItem("buttonClick")
     if (buttonClick) {
         rating.innerHTML = `You selected ${buttonClick} out of 5`
     }
+
+    submit.addEventListener('click', function() {
+        pag2click();
+    })
