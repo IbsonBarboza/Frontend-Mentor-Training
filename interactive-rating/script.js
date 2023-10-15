@@ -5,7 +5,7 @@ const submit = document.querySelector('.submit')
 
 //Change Page
 function pag2click() {
-    window.location.href = 'pag2.html'   
+    window.location.href = './pags/pag2.html'   
 }
 
 //Identify Button
