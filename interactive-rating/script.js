@@ -25,7 +25,3 @@ const buttonClick = localStorage.getItem("buttonClick")
     if (buttonClick) {
         rating.innerHTML = `You selected ${buttonClick} out of 5`
     }
-
-    submit.addEventListener('click', function() {
-        pag2click();
-    })
