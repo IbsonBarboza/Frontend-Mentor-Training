@@ -7,6 +7,8 @@
 }
 
 body {
+    background: url(./assets/images/background-pattern-desktop.svg) top no-repeat;
+    background-size: 100%;
     font-family: 'Work Sans', sans-serif;
     font-size: 14px;
     background-color: hsl(275, 100%, 97%);
@@ -42,6 +44,10 @@ main {
     width: 25px;
 }
 
+.plus:hover {
+    content: url(./assets/images/icon-minus.svg);
+}
+
 .title {
     font-size: 3em;
 }
@@ -53,6 +59,10 @@ main {
     margin-bottom: 10px;
     font-size: 16px;
     font-weight: 600;
+}
+
+.titles-h2:hover {
+    color: #9e00b3;
 }
 
 hr {
