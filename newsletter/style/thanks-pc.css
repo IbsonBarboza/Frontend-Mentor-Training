@@ -1,4 +1,40 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    :root {
+        --Tomato: hsl(4, 100%, 67%);
+        --Dark-Slate-Grey: hsl(234, 29%, 20%);
+        --Charcoal-Grey: hsl(235, 18%, 26%);
+        --Grey: hsl(231, 7%, 60%);
+        --White: hsl(0, 0%, 100%);
+    }
+
+    body {
+        background-color: var(--Dark-Slate-Grey);
+    }
+
+    .card {
+        background-color: var(--White);
+        height: 50%;
+        width: 400px;
+        padding: 40px;
+        border-radius: 30px;
+    }
+
+    .check {
+        width: 20px;
+    }
+
+    .title {
+        font-size: 38px;  
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        width: 50px;
+    }
+
     
 }
