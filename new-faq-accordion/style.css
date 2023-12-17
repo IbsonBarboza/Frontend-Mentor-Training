@@ -9,9 +9,9 @@
 body {
     background: url(./assets/images/background-pattern-desktop.svg) top no-repeat;
     background-size: 100%;
+    background-color: hsl(275, 100%, 97%);
     font-family: 'Work Sans', sans-serif;
     font-size: 14px;
-    background-color: hsl(275, 100%, 97%);
     display: grid;
     justify-content: center;
     align-items: center;
