@@ -1,0 +1,45 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    :root {
+        --Tomato: hsl(4, 100%, 67%);
+        --Dark-Slate-Grey: hsl(234, 29%, 20%);
+        --Charcoal-Grey: hsl(235, 18%, 26%);
+        --Grey: hsl(231, 7%, 60%);
+        --White: hsl(0, 0%, 100%);
+    }
+
+    body {
+        background-color: var(--Charcoal-Grey);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .img {
+        display: none;
+    }
+
+    .card {
+        display: flex;
+        background-color: var(--White);
+        width: 800px;
+        height: 70vh;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    .title {
+        font-size: 3em;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-d {
+        content: url(../assets/images/illustration-sign-up-desktop.svg);
+        
+    }    
+}
