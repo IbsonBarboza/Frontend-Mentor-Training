@@ -45,7 +45,8 @@
 
 .cards {
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 5px;
+    width: 350px;
     height: 250px;
     position: relative;
 }
@@ -68,19 +69,23 @@
 }
 
 .supervisor {
-    box-shadow: 3px 3px 10px #0000006e , 0px -10px 0px -5px var(--Cyan);
+    box-shadow: 0px 15px 35px -15px #0000006e;
+    border-top: 4px solid var(--Cyan);
 }
 
 .team {
-    box-shadow: 3px 3px 10px #0000006e , 0px -10px 0px -5px var(--Red);
+    box-shadow: 0px 15px 35px -15px #0000006e;
+    border-top: 4px solid var(--Red);
 }
 
 .karma {
-    box-shadow: 3px 3px 10px #0000006e , 0px -10px 0px -5px var(--Orange);
+    box-shadow: 0px 15px 35px -15px #0000006e;
+    border-top: 4px solid var(--Orange);
 }
 
 .calculator {
-    box-shadow: 3px 3px 10px #0000006e , 0px -10px 0px -5px var(--Blue);
+    box-shadow: 0px 15px 35px -15px #0000006e;
+    border-top: 4px solid var(--Blue);
 }
 
 .cards-container {
