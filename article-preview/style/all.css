@@ -76,9 +76,32 @@ h3 {
     font-size: 14px;
 }
 
-.share {
+button {
     background-color: hsl(210, 46%, 95%);
     border-radius: 50%;
     padding: 10px;
     display: flex;
+    border: none;
+}
+
+button:active {
+    background-color: hsla(212, 23%, 69%, 0.587);
+}
+
+.hide {
+    position: absolute;
+    left: 79%;
+    bottom: 42%;
+    color: hsla(210, 46%, 95%, 0.438);
+    background-color: hsl(217, 19%, 35%);
+    padding: 12px;
+    border-radius: 10px;
+    display: none;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 13px;
 }

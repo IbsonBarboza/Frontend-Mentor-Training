@@ -29,11 +29,31 @@
                     <p class="dates">28 Jun 2020</p>
                 </div>
 
-                <div>
+                <button onclick="hiddenClick()">
                     <img class="share" src="./images/icon-share.svg" alt="">
-                </div>
+                </button>
             </div>
         </article>
     </main>
+
+    <section class="hide">
+        <div class="icons">
+            S H A R E
+            <img src="./images/icon-facebook.svg" alt="">
+            <img src="./images/icon-twitter.svg" alt="">
+            <img src="./images/icon-pinterest.svg" alt="">
+        </div>
+    </section>
+
+    <script>
+        const share = document.querySelector('.hide')
+        function hiddenClick() {
+            if (share.style.display === 'none') {
+                share.style.display = 'block'
+            } else {
+                share.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 </html>
