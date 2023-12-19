@@ -1,0 +1,32 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    .cards-container {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .cards {
+        width: 350px;
+    }
+
+    .team {
+        position: absolute;
+    }
+
+    .karma {
+        position: absolute;
+        
+    }
+
+    .calculator {
+        position: absolute;
+        left: 65%;
+    }
+
+    .supervisor {
+        position: absolute;
+        right: 65%;
+    }
+}
