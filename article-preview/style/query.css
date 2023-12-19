@@ -1,0 +1,14 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .card {
+        display: flex;
+        flex-direction: row;
+        height: 40%;
+
+    }
+
+    .img {
+        height: 100%;
+        width: 60%;
+    }
+}
