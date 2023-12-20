@@ -23,6 +23,7 @@ body {
     margin: auto;
     border-radius: 10px;
     max-height: 520px;
+    position: relative;
 }
 
 .container {
@@ -85,18 +86,19 @@ button {
 }
 
 button:active {
-    background-color: hsla(212, 23%, 69%, 0.587);
+    background-color: #9eafc2;
 }
 
 .hide {
     position: absolute;
-    left: 79%;
-    bottom: 42%;
+    left: 85%;
+    bottom: 35%;
     color: hsla(210, 46%, 95%, 0.438);
     background-color: hsl(217, 19%, 35%);
     padding: 12px;
     border-radius: 10px;
     display: none;
+    width: 180px;
 }
 
 .icons {

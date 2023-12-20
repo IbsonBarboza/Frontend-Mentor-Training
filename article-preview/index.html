@@ -34,21 +34,23 @@
                 </button>
             </div>
         </article>
+        <section class="hide">
+            <div class="icons">
+                S H A R E
+                <img src="./images/icon-facebook.svg" alt="">
+                <img src="./images/icon-twitter.svg" alt="">
+                <img src="./images/icon-pinterest.svg" alt="">
+            </div>
+        </section>
     </main>
 
-    <section class="hide">
-        <div class="icons">
-            S H A R E
-            <img src="./images/icon-facebook.svg" alt="">
-            <img src="./images/icon-twitter.svg" alt="">
-            <img src="./images/icon-pinterest.svg" alt="">
-        </div>
-    </section>
+    
 
     <script>
         const share = document.querySelector('.hide')
+        const but = document.querySelector('.share')
         function hiddenClick() {
-                           
+
             if (share.style.display === 'none') {
                 share.style.display = 'block'
             } else {
