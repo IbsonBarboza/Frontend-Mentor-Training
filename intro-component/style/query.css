@@ -1,0 +1,48 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        background: #ff7a7a url(../images/bg-intro-desktop.png);
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3em;
+        max-width: 90vw;
+    }
+
+    .plans-section {
+        max-width: 650px;
+        margin-bottom: 4%;
+    }
+
+    .form-section {
+        width: 600px;
+        padding: 40px 10px;
+    }
+
+    .form {
+        gap: 1.5em;
+    }
+
+    .form input {
+        padding: 15px;
+    }
+
+    .form-section button {
+        padding: 15px;
+    }
+
+    .title {  
+        text-align: start;
+        font-size: 3em;
+        max-width: 550px;
+        line-height: 60px;
+    }
+
+    .paragraph {
+        text-align: start;
+        max-width: 550px;
+    }
+}

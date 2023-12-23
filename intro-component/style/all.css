@@ -53,10 +53,11 @@ body {
 
 .plans-section {
     background-color: var(--Blue);
-    padding: 25px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.146);
     cursor: pointer;
+    margin-bottom: 7%;
 }
 
 .plans-section:active {
