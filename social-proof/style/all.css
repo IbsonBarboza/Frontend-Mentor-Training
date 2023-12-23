@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+:root {
+--Very-Dark-Magenta: hsl(300, 43%, 22%);
+--Soft-Pink: hsl(333, 80%, 67%);
+--Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+--Light-Grayish-Magenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    max-width: 250px;
+    text-align: center;
+    color: var(--Very-Dark-Magenta);
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.paragraph {
+    text-align: center;
+    line-height: 20px;
+    max-width: 290px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 10% 0 10% 0;
+}
+
+.star-divs {
+    background-color: var(--Light-Grayish-Magenta);
+    width: 80vw;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.star-divs img {
+    width: 20px;
+}
+
+.star-divs h2 {
+    font-size: 1em;
+    text-align: center;
+    color: var(--Very-Dark-Magenta);
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.reviews-divs {
+    background-color: var(--Very-Dark-Magenta);
+    height: 240px;
+    border-radius: 10px;
+    color: var(--White);
+    
+}
+
+.review-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    
+}
+
+.client {
+    display: flex;
+    gap: 1em;
+}
+
+.client-name {
+    line-height: 20px;
+}
+
+.client-stats {
+    color: var(--Soft-Pink);
+}
+
+.client-review {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.client-img {
+    border-radius: 50%;
+    width: 40px;
+}
