@@ -2,6 +2,7 @@
 @media only screen and (min-width: 768px) {
     body {
         background: #ff7a7a url(../images/bg-intro-desktop.png);
+        height: 100vh;
     }
     
     .card {
