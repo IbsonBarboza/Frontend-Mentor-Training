@@ -105,6 +105,7 @@ body {
     border: none;
     outline: none;
     margin-top: -20px;
+    cursor: pointer;
 }
 
 
