@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root {
+    --Linear-gradient-left: hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+    --Linear-gradient-right: hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+    --Desaturated-Red: hsl(0, 36%, 70%);
+    --Soft-Red: hsl(0, 93%, 68%);
+    --Dark-Grayish-Red: hsl(0, 6%, 24%);
+}
+
+body {
+    
+    height: 100vh;
+    background: linear-gradient(to bottom right, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+    margin-left: 9%;
+}
+
+.img {
+    content: url(../images/hero-mobile.jpg);
+    width: 100%;
+    max-height: 270px;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    max-width: 85%;
+    height: 50vh;
+    margin: auto;
+}
+
+
+.title {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+
+.title span {
+    color: var(--Desaturated-Red);
+    font-weight: 200;
+}
+
+.paragraph {
+    text-align: center;
+    line-height: 25px;
+    color: var(--Desaturated-Red);
+}
+
+.form {
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.email {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid hsla(0, 36%, 70%, .5);
+    text-indent: 20px;
+    color: hsl(0, 80%, 86%);
+    background: transparent;
+}
+
+.email::placeholder {
+    color: hsla(0, 36%, 70%, .5);
+}
+
+.but {
+    position: absolute;
+    right: 0;
+    width: 70px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+.but:hover {
+    background: linear-gradient(to right, hsl(0, 100%, 98%), hsl(0, 93%, 89%));
+}
